@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GIF Example | Lab 04</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Lab 04: Funny Web Image Formats</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dog.html">PNG Example</a></li>
+        <li><a href="landscape.html">JPG Example</a></li>
+        <li><a href="animation.html">GIF Example</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>GIF Example: Dancing Banana</h2>
+    <figure>
+      <img src="images/bouncing-ball.gif" alt="A yellow cartoon banana with eyes, arms, and legs dancing against a pale background.">
+      <figcaption>GIF Example — an original example image made for this project.</figcaption>
+    </figure>
+    <section>
+      <h3>Image description</h3>
+      <p>This animated image shows a silly banana dancing by swinging its arms and legs.</p>
+      <h3>File type information</h3>
+      <p>GIF stands for Graphics Interchange Format. It supports simple frame-based animation and is often used for short, looping reactions and jokes.</p>
+      <h3>Why I chose this image</h3>
+      <p>I chose a dancing banana because funny looping animations are popular online, and GIF is designed to display simple animations.</p>
+      <h3>Source</h3>
+      <p>This is original artwork created for this assignment, so it does not use an outside image source.</p>
+    </section>
+  </main>
+  <footer><p>CSIT 121 · Lab 04 · Web Image Formats</p></footer>
+</body>
+</html>

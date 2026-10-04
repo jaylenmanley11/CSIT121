@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JPG Example | Lab 04</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Lab 04: Funny Web Image Formats</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dog.html">PNG Example</a></li>
+        <li><a href="landscape.html">JPG Example</a></li>
+        <li><a href="animation.html">GIF Example</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>JPG Example: Bright Green Hill Landscape</h2>
+    <figure>
+      <img src="images/landscape.jpg" alt="A bright blue sky above a vivid green rolling hill.">
+      <figcaption>JPG Example — an original example image made for this project.</figcaption>
+    </figure>
+    <section>
+      <h3>Image description</h3>
+      <p>This colorful landscape shows a bright blue sky, white clouds, and a vivid green hill inspired by classic computer wallpaper imagery.</p>
+      <h3>File type information</h3>
+      <p>JPG, also called JPEG, is a compressed image format often used for photographs and colorful scenes. It reduces file size, although some image detail can be lost.</p>
+      <h3>Why I chose this image</h3>
+      <p>I chose this recognizable landscape style because it looks like classic desktop wallpaper and shows how JPG works well for colorful images.</p>
+      <h3>Source</h3>
+      <p>This is original artwork created for this assignment, so it does not use an outside image source.</p>
+    </section>
+  </main>
+  <footer><p>CSIT 121 · Lab 04 · Web Image Formats</p></footer>
+</body>
+</html>

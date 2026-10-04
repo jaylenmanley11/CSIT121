@@ -1,0 +1,103 @@
+/* Lab 04 - shared stylesheet */
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.65;
+  color: #263238;
+  background: #eaf1f5 url("images/background.png") repeat;
+}
+
+header {
+  background: #23445a;
+  color: #fff;
+  padding: 1.7rem 1rem 1.2rem;
+  text-align: center;
+  border-bottom: 5px solid #e0a458;
+}
+
+header h1 {
+  margin: 0 0 .3rem;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  letter-spacing: .02em;
+}
+
+header p { margin: 0; color: #e2edf3; }
+
+nav {
+  background: #172f40;
+  padding: .75rem 1rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: .6rem 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: .35rem .5rem;
+  border-radius: 4px;
+}
+
+nav a:hover, nav a:focus {
+  background: #e0a458;
+  color: #172f40;
+}
+
+main {
+  width: min(900px, 92%);
+  margin: 2rem auto;
+  padding: clamp(1.2rem, 4vw, 2.4rem);
+  background: rgba(255, 255, 255, .96);
+  border: 1px solid #cbd8df;
+  border-radius: 10px;
+  box-shadow: 0 5px 18px rgba(20, 48, 65, .12);
+}
+
+h2 { color: #23445a; margin-top: 0; }
+h3 { color: #315f79; margin-bottom: .25rem; }
+p { margin-top: .4rem; }
+a { color: #075b8e; }
+a:focus { outline: 3px solid #e0a458; outline-offset: 2px; }
+
+figure { margin: 1.3rem 0 1.7rem; }
+figure img {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  max-height: 460px;
+  object-fit: contain;
+  margin: 0 auto;
+  background: #f6f8fa;
+  border: 2px solid #d5e0e6;
+  border-radius: 6px;
+}
+figcaption { color: #526672; font-size: .92rem; margin-top: .55rem; text-align: center; }
+
+.info-box {
+  background: #f2f7fa;
+  border-left: 4px solid #e0a458;
+  padding: .9rem 1.1rem;
+  margin: 1.25rem 0;
+}
+
+footer {
+  text-align: center;
+  color: #425966;
+  padding: 0 1rem 1.5rem;
+  font-size: .9rem;
+}
+
+@media (max-width: 520px) {
+  nav ul { gap: .4rem; }
+  nav a { display: inline-block; }
+}
