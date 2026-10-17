@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+}
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+img {
+    width: 300px;
+    height: auto;
+}
