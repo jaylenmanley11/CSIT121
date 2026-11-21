@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy Tier List Form </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+        <h1>Candy Tier List</h1>
+        <p>Share your opinion about my rankings.</p>
+    </header>
+
+    <nav>
+        <a href="tierlist.html">Tier List</a>
+        <a href="contact.html" aria-current="page">Contact Form</a>
+    </nav>
+
+    <main>
+        <h2>Give Your Feedback</h2>
+        <p>Fill out the form below. The questions are about the candy tier list.</p>
+
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Your Information</legend>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4" required></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>About the Tier List</legend>
+
+                <p>1. Which tier do you think is the best?</p>
+                <div class="choice">
+                    <input type="radio" id="best-s" name="best-tier" value="S">
+                    <label for="best-s">S Tier</label>
+                </div>
+                <div class="choice">
+                    <input type="radio" id="best-a" name="best-tier" value="A">
+                    <label for="best-a">A Tier</label>
+                </div>
+                <div class="choice">
+                    <input type="radio" id="best-b" name="best-tier" value="B">
+                    <label for="best-b">B Tier</label>
+                </div>
+
+                <label for="favorite">2. What is your favorite candy?</label>
+                <select id="favorite" name="favorite">
+                    <option value="">Choose a candy</option>
+                    <option value="Snickers">Snickers</option>
+                    <option value="Milky Way">Milky Way</option>
+                    <option value="Reese's">Reese's</option>
+                    <option value="Twix">Twix</option>
+                    <option value="Kit Kat">Kit Kat</option>
+                    <option value="Skittles">Skittles</option>
+                    <option value="Hershey's">Hershey's</option>
+                    <option value="Starburst">Starburst</option>
+                    <option value="Haribo">Haribo</option>
+                    <option value="Chupa Chups">Chupa Chups</option>
+                    <option value="Smarties">Smarties</option>
+                    <option value="Wrigley's">Wrigley's</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <p>3. What makes a good candy? (Choose any that apply.)</p>
+                <div class="choice">
+                    <input type="checkbox" id="chocolate" name="reason" value="Chocolate">
+                    <label for="chocolate">Chocolate</label>
+                    <input type="checkbox" id="sweetness" name="reason" value="Sweetness">
+                    <label for="sweetness">Sweetness</label>
+                </div>
+                <div class="choice">
+                    <input type="checkbox" id="smell" name="reason" value="Smell">
+                    <label for="smell">Smell</label>
+                </div>
+                    <input type="checkbox" id="Peanuts" name="reason" value="Peanuts">
+                    <label for="nuts">Peanuts</label>
+                </div>
+            </fieldset>
+
+            <button type="submit">Submit Form</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>CSIT 121-Lab 07</p>
+    </footer>
+</body>
+</html>
